@@ -1,0 +1,125 @@
+.head{
+	padding:10px;
+	text-align: center;
+	background: red;	
+}
+.box{
+	padding:10px;
+	text-align: center;
+	background: green;
+	min-height: 200px;
+	display: none;
+}
+#animat{
+	background-color: #bca;
+    width: 100px;
+    border: 1px solid green;
+}
+.slideit{
+	width:30%;
+	min-height: 100px;
+	background: yellow;
+}
+.position{
+	position: relative;
+
+	
+}
+.block{
+	position: absolute;
+	
+    background-color: #abc;
+    left: 0px;
+    top: 35px;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+.wrapper h1{
+
+	color: red;
+}
+.wow_wrap{
+	padding: 10px;
+	min-height: 250px;
+	background: aqua;
+}
+.parallax-window {
+	min-height: 400px;
+	background: transparent;
+}
+/*about page*/
+body .slider .inner {
+  position: relative;
+  white-space: nowrap;
+  transition: all 1s ease;
+}
+
+body .slider .inner img {
+  width: 100vw;
+}
+.sliderr{
+	padding:40px 0;
+	background: red;
+}
+#draggable { width: 150px;
+ min-height: 150px;
+  padding: 0.5em; 
+}
+.myPanel {
+  width: 400px;
+  background-color: aqua !important;
+  overflow: hidden !important;
+  z-index: 150000;
+  box-shadow: 8px 0 8px -10px #000000,-8px 0 8px -10px #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1999999999;
+  text-align: left;
+  background: #fff;
+  pointer-events: auto;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+.navigation-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    background-color: rgba(34,32,32,.7);
+    z-index: 298;
+    cursor: pointer;
+}
+
+.is-visible {
+    visibility: visible;
+}
+
+.is-hidden {
+    display: none;
+}
+.content { padding: 1rem; }
+.container { margin: 70px auto; }
+
+.myPanel .ns-header {
+    padding: 0 2rem .75rem;
+    display: flex;
+    align-items: center;
+}
+
+.myPanel .ns-header .ns-header-title {
+    color: #6f676c;
+    width: 100%;
+    text-align: center;
+}
+
+.myPanel .ns-header .ns-exit {
+    border: none;
+    background: none;
+}
